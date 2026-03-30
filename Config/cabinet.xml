@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Cabinet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>ESP32 Cabinet</Name>
+  <OutputControllers>
+    <TeensyStripController>
+      <Name>ESP32_Controller</Name>
+      <NumberOfLedsStrip1>1</NumberOfLedsStrip1>
+      <NumberOfLedsStrip2>0</NumberOfLedsStrip2>
+      <NumberOfLedsStrip3>0</NumberOfLedsStrip3>
+      <NumberOfLedsStrip4>0</NumberOfLedsStrip4>
+      <NumberOfLedsStrip5>0</NumberOfLedsStrip5>
+      <NumberOfLedsStrip6>0</NumberOfLedsStrip6>
+      <NumberOfLedsStrip7>0</NumberOfLedsStrip7>
+      <NumberOfLedsStrip8>0</NumberOfLedsStrip8>
+      <ComPortName>COM7</ComPortName>
+      <ComPortBaudRate>115200</ComPortBaudRate>
+      <ComPortDtrEnable>true</ComPortDtrEnable>
+      <ComPortOpenWaitMs>2000</ComPortOpenWaitMs>
+      <ComPortHandshakeStartWaitMs>200</ComPortHandshakeStartWaitMs>
+      <ComPortHandshakeEndWaitMs>200</ComPortHandshakeEndWaitMs>
+      <ComPortTimeOutMs>200</ComPortTimeOutMs>
+    </TeensyStripController>
+  </OutputControllers>
+  <Toys>
+    <LedStrip>
+      <Name>LedStrip1</Name>
+      <OutputControllerName>ESP32_Controller</OutputControllerName>
+      <NumberOfLeds>1</NumberOfLeds>
+      <FirstLedNumber>1</FirstLedNumber>
+      <Width>1</Width>
+      <Height>1</Height>
+      <LedStripArrangement>LeftRightTopDown</LedStripArrangement>
+      <ColorOrder>GRB</ColorOrder>
+    </LedStrip>
+    <LedWizEquivalent>
+      <Name>LedWizEquivalent30</Name>
+      <LedWizNumber>30</LedWizNumber>
+      <Outputs>
+        <LedWizEquivalentOutput>
+          <OutputName>LedStrip1</OutputName>
+          <LedWizEquivalentOutputNumber>1</LedWizEquivalentOutputNumber>
+        </LedWizEquivalentOutput>
+      </Outputs>
+    </LedWizEquivalent>
+  </Toys>
+</Cabinet>

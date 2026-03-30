@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Global configuration for the DirectOutput framework.-->
+<!--Saved by DirectOutput Version 3.2.9313.40076: 2026-03-30 11-37-33-->
+<GlobalConfig>
+  <LedWizDefaultMinCommandIntervalMs>10</LedWizDefaultMinCommandIntervalMs>
+  <LedControlMinimumEffectDurationMs>60</LedControlMinimumEffectDurationMs>
+  <LedControlMinimumRGBEffectDurationMs>120</LedControlMinimumRGBEffectDurationMs>
+  <PacLedDefaultMinCommandIntervalMs>10</PacLedDefaultMinCommandIntervalMs>
+  <IniFilesPath>K:\vPinball\DirectOutput\Config</IniFilesPath>
+  <CabinetConfigFilePattern>K:\vPinball\DirectOutput\Config\cabinet.xml</CabinetConfigFilePattern>
+  <TableConfigFilePatterns />
+  <EnableLogging>true</EnableLogging>
+  <ClearLogOnSessionStart>true</ClearLogOnSessionStart>
+  <LogFilePattern>.\DirectOutput.log</LogFilePattern>
+  <Instrumentation />
+</GlobalConfig>
